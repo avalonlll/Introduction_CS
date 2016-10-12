@@ -7,4 +7,3 @@ def sqrx(x):
 	#if y is not an integer, print false in screen
 			print False
 
-

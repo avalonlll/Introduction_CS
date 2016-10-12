@@ -3,6 +3,8 @@ def prakseis (x):
 	s = x % 10 #takes x's last digit
 	flag=True 
 	while (flag == True):
+		if (x < 10 ):
+			break
 		x = x/10 #deletes x last digit
 		s*= x%10 
 		if (x < 10): 
